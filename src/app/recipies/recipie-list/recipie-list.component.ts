@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./recipie-list.component.css']
 })
 export class RecipieListComponent implements OnInit {
+  recpies = [];
 
   constructor() { }
 
